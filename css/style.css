@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap');
+
+body{
+font: 300 16px/1.5 Lato, sans-serif;
+color: #393939;
+}
+
+.ba-container{
+	padding-left: 20px;
+	padding-right: 20px;
+	max-width: 903px;
+}
+
+.ba-header {
+	background: #FFFFFF url(../img/hero-bg.jpg);
+	background-position: 50%;
+	background-size: cover;
+	color: #FFFFFF;
+	min-height: 100vh;
+	padding: 285px 0 118px;
+	text-align: center;
+
+	display: flex;
+	align-items: center;
+}
+
+.ba-header__logo {
+	margin-bottom: 96px;
+}
+
+.ba-header-logo svg {
+	stroke: #fff;
+	fill: #fff;
+}
+
+.ba-header__title {
+	text-transform: uppercase;
+	font-size: 54px;
+	font-weight: 800;
+	letter-spacing: 5px;
+	margin-bottom: 53px;
+}
+
+.ba-header__subtitle {
+	font-size: 13px;
+	line-height: 2;
+	letter-spacing: 1.3px;
+	font-weight: 400;
+	text-transform: uppercase;
+	margin-bottom: 245px;
+}
+
+.ba-header__button svg {
+	fill: #fff;
+}
+
+.ba-header__button svg:hover {
+	filter: drop-shadow( 0 0 3px rgb(39, 39, 39));
+}
+
+.ba-button__contact-us {
+	display: inline-block;
+	text-decoration: none;
+	text-transform: uppercase;
+	background-color: #393939;
+	color: #fff;
+	min-height: 60px;
+	line-height: 60px;
+	font-weight: 400;
+	padding: 0 100px;
+	letter-spacing: 5px;
+}
+
+.ba-button__contact-us:hover {
+	background-color: #fff;
+	color: #393939;
+	box-shadow: 0 0 10px 10px #393939;
+}
+
+.ba-section__about-us {
+	padding: 162px 0;
+}
+
+.ba-section__services {
+	padding: 128px 0 109px;
+}
+
+.ba-section__wwd {
+	padding: 119px 0 115px;
+}
+
+.ba-section__contact-us {
+	padding: 141px 0 0;
+}
+
+.ba-section--white-color {
+	color: #fff;
+	background: url(../img/services.jpeg);
+	background-position: 50%;
+	background-size: cover;
+}
+
+.ba-section__border {
+	border:  solid #393939;
+	border-width: 0 2px 2px;
+	padding: 78px 175px 31px;
+	text-align: center;
+	position: relative;
+}
+
+.ba-section__title {
+	text-transform: uppercase;
+	font-size: 34px;
+	font-weight: 800;
+	letter-spacing: 5px;
+
+
+	position: absolute;
+	top: -28px;
+	left: 0;
+	right: 0;
+	background-color: #fff;
+	width: 40%;
+	margin: auto;
+}
+
+.ba-section__border:before, .ba-section__border:after {
+	position: absolute;
+	display: block;
+	content: "";
+	top: 0;
+	height: 2px;
+	background-color: #393939;
+	font-size: 0;
+	width: 27%;
+}
+
+.ba-section__border:before{
+	left: 0;
+}
+.ba-section__border:after{
+	right: 0;
+}
+
+
+.ba-section-border--white {
+	border:  solid #fff;
+	border-width: 0 2px 2px;
+}
+
+.ba-section-border--white:before, .ba-section-border--white:after {
+	background-color: #fff;
+}
+
+.ba-section-title--white {
+	background: transparent;
+}
+
+.ba-section__text + .ba-section__text{
+	margin-top: 37px;
+}
+
+.ba-section--wwd {
+	padding: 126px 175px 96px;
+}
+
+.ba-wwd + .ba-wwd {
+	margin-top: 100px;
+}
+
+.ba-wwd svg {
+	margin-bottom: 40px;
+}
+
+.ba-wwd__title {
+	text-transform: uppercase;
+	font-size: 20px;
+	letter-spacing: 5px;
+	margin-bottom: 40px;
+}
+
+.ba-wwd__text {
+	font-size: 14px;
+	line-height: 1.85;
+}
+
+
+.ba-text-margin {
+	margin-bottom: 45px;
+}
+
+.ba-footer {
+	text-align: center;
+	padding: 65px 0;
+}
+
+.dark-logo {
+	margin-right: 40px;
+}
+
+.ba-copyright {
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.ba-copyright a {
+	text-decoration: none;
+	color: #7c7c7c;
+}
+
+.ba-copyright a:hover {
+	text-decoration: underline;
+}
+
+.dark-logo svg {
+	stroke: #393939;
+}
+
+.dark-logo {
+	vertical-align: middle;
+}
+
+.ba-section-work__link {
+	display: block;
+	position: relative;
+}
+
+.ba-section-work__title {
+	position: absolute;
+	left: 40px;
+	bottom: 40px;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 34px;
+	letter-spacing: 5px;
+	font-weight: 800;
+}
+
+.ba-grid {
+	display: flex;
+	margin-left: -10px;
+}
+
+.ba-grid + .ba-grid {
+	margin-top: 10px;
+}
+
+.ba-section-work__link {
+	padding-left: 10px;
+	
+}
+
+.ba-section-work__link:hover {
+	opacity: 0.7;
+}
+
+.ba-section-work__img {
+	display: block;
+	width: 100%;
+}
+
+.ba-width-30 {
+	width: 33.3%;
+}
+.ba-width-40 {
+	width: 33.3%;
+
+}
