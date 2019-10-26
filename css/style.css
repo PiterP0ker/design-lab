@@ -77,11 +77,11 @@ color: #393939;
 	box-shadow: 0 0 10px 10px #393939;
 }
 
-.ba-section__about-us {
+.ba-section--about-us {
 	padding: 162px 0;
 }
 
-.ba-section__services {
+.ba-section--services {
 	padding: 128px 0 109px;
 }
 
@@ -89,7 +89,7 @@ color: #393939;
 	padding: 119px 0 115px;
 }
 
-.ba-section__contact-us {
+.ba-section--contact-us {
 	padding: 141px 0 0;
 }
 
@@ -143,16 +143,16 @@ color: #393939;
 }
 
 
-.ba-section-border--white {
+.ba-section__border--white {
 	border:  solid #fff;
 	border-width: 0 2px 2px;
 }
 
-.ba-section-border--white:before, .ba-section-border--white:after {
+.ba-section__border--white:before, .ba-section__border--white:after {
 	background-color: #fff;
 }
 
-.ba-section-title--white {
+.ba-section__title--white {
 	background: transparent;
 }
 
