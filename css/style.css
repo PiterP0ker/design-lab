@@ -85,7 +85,7 @@ color: #393939;
 	padding: 128px 0 109px;
 }
 
-.ba-section__wwd {
+.ba-section--wwd {
 	padding: 119px 0 115px;
 }
 
@@ -158,10 +158,6 @@ color: #393939;
 
 .ba-section__text + .ba-section__text{
 	margin-top: 37px;
-}
-
-.ba-section--wwd {
-	padding: 126px 175px 96px;
 }
 
 .ba-wwd + .ba-wwd {
